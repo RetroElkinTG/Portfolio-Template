@@ -7,78 +7,78 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "RetroElkinTG",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate and ambitious individual who thrives on developing sustainable and scalable technical systems to create a better future.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "RetroElkinTG",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://retroelkintg.com/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Elkin Franco",
+  logo_name: "ElkinFranco",
+  nickname: "RetroElkinTG",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate and ambitious individual who thrives on developing sustainable and scalable technical systems to create a better future.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  portfolio_repository: "https://github.com/RetroElkinTG/RetroElkinTG",
+  githubProfile: "https://github.com/RetroElkinTG",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
+  // github: "https://github.com/RetroElkinTG",
+  // linkedin: "https://www.linkedin.com/in/elkin-franco/",
+  // gmail: "RetroElkinTG@gmail.com",
+  // gitlab: "https://gitlab.com/RetroElkinTG",
+  // facebook: "https://www.facebook.com/elkin.franco.90281",
+  // twitter: "https://x.com/RetroElkinTG",
+  // instagram: "https://www.instagram.com/retroelkintg/"
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/RetroElkinTG",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/elkin-franco/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
+    link: "https://www.youtube.com/@retroelkintg",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:RetroElkinTG@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://x.com/RetroElkinTG",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/elkin.franco.90281",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/retroelkintg/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -90,9 +90,9 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Learning about highly scalable production ready models for various deep learning and statistical use cases",
+        "⚡ Experience working with Generative AI and MySQL projects",
+        "⚡ A slightly high reliance on ChatGPT :)",
       ],
       softwareSkills: [
         {
@@ -135,9 +135,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building responsive front end for websites using React-Redux",
+        "⚡ Developing mobile applications using Bootstrap, React Native and solo android apps using Anvil",
+        "⚡ Creating back end for applications in Node, Express & Flask",
       ],
       softwareSkills: [
         {
@@ -217,10 +217,10 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Aspiring for experience on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Deploying websites such as this on the internet",
+        "⚡ Pursuing certificates in AWS, Azure, and Google Cloud",
       ],
       softwareSkills: [
         {
@@ -332,7 +332,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "https://leetcode.com/u/retroelkintg/",
     },
     {
       siteName: "HackerRank",
@@ -380,17 +380,17 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
+      title: "No degrees yet, I'm too young!",
+      subtitle: "I would a Bachelor of Software Engineering though.",
       logo_path: "iiitk_logo.png",
       alt_name: "IIITDM Kurnool",
       duration: "2016 - 2020",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ In my own time, I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        "⚡ Apart from this, I aim to complete courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        "⚡ I aspire to be accepted into scholarships and internships for a boost in my career.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "http://retroelkintg.com",
     },
     {
       title: "Indiana University Bloomington",
