@@ -2,16 +2,16 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "RetroElkinTG",
+  title: "RetroElkinTG's Portfolio",
   description:
     "A passionate and ambitious individual who thrives on developing sustainable and scalable technical systems to create a better future.",
   og: {
-    title: "RetroElkinTG",
+    title: "RetroElkinTG's Portfolio",
     type: "website",
     url: "http://retroelkintg.com/",
   },
@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate and ambitious individual who thrives on developing sustainable and scalable technical systems to create a better future.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
+    "https://www.linkedin.com/in/elkin-franco/",
   portfolio_repository: "https://github.com/RetroElkinTG/RetroElkinTG",
   githubProfile: "https://github.com/RetroElkinTG",
 };
@@ -213,7 +213,7 @@ const skills = {
         },
       ],
     },
-    {
+    /*{
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
@@ -280,12 +280,12 @@ const skills = {
           },
         },
       ],
-    },
+    },*/
     {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
+        "⚡ Designing highly attractive user interfaces for mobile and web applications",
         "⚡ Customizing logo designs and building logos from scratch",
         "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
@@ -340,7 +340,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "https://www.hackerrank.com/retroelkintg",
     },
     {
       siteName: "Codechef",
@@ -348,7 +348,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+      profileLink: "https://www.codechef.com/users/retroelkintg",
     },
     {
       siteName: "Codeforces",
@@ -356,7 +356,7 @@ const competitiveSites = {
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "http://codeforces.com/profile/layman_brother",
+      profileLink: "https://codeforces.com/profile/RetroElkinTG",
     },
     {
       siteName: "Hackerearth",
@@ -364,7 +364,7 @@ const competitiveSites = {
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "https://www.hackerearth.com/@retroelkintg",
     },
     {
       siteName: "Kaggle",
@@ -372,7 +372,7 @@ const competitiveSites = {
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://www.kaggle.com/retroelkintg",
     },
   ],
 };
@@ -381,36 +381,36 @@ const degrees = {
   degrees: [
     {
       title: "No degrees yet, I'm too young!",
-      subtitle: "I would a Bachelor of Software Engineering though.",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      subtitle: "I would love a Bachelor of Software Engineering though.",
+      logo_path: "unsw_logo.png",
+      alt_name: "UNSW",
+      duration: "2006 - 2024",
       descriptions: [
         "⚡ In my own time, I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I aim to complete courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
         "⚡ I aspire to be accepted into scholarships and internships for a boost in my career.",
       ],
-      website_link: "http://retroelkintg.com",
+      website_link: "https://retroelkintg.com",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      title: "Harvard University",
+      subtitle: "CS50's Introduction to Computer Science",
+      logo_path: "harvard_logo.png",
+      alt_name: "Harvard University",
+      duration: "2024 - 2024",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ I had taken on Harvard's intensive 10-week course and completed it over a 2-week school holiday period.",
+        "⚡ In the course, I had learnt memory management and DSA using the C programming language, and artifical intelligence using Python.",
+        "⚡ On the final weeks, I developed a few websites using Flask, and for my final project I created a 2D Zelda-Like RPG using Unity and C#.",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://certificates.cs50.io/8920aa65-9460-442c-8ef9-4ef5cf3154ff",
     },
   ],
 };
 
 const certifications = {
   certifications: [
-    {
+    /*{
       title: "Machine Learning",
       subtitle: "- Andrew Ng",
       logo_path: "stanford_logo.png",
@@ -518,15 +518,15 @@ const certifications = {
       alt_name: "GCP",
       color_code: "#4285F499",
     },
-  ],
+  */],
 };
 
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with and volunteered for many organisations relating to the computer science field. I have been employed as an App Developer, Web Developer, and Co-Founder.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -534,59 +534,59 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
+          title: "Co-Founder",
+          company: "PlantCord",
+          company_url: "https://www.linkedin.com/company/plantcord/about/",
+          logo_path: "plantcord_logo.png",
+          duration: "May 2024 - Present",
+          location: "Sydney, NSW, Australia",
           description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+            "Co-Founder of PlantCord, an economy bot hosted on Discord using Node.js, TypeScript, and MySQL.",
           color: "#000000",
         },
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Web Developer",
+          company: "Help Elevate Youth - Website",
+          company_url: "https://www.helpelevateyouth.org/",
+          logo_path: "hey_logo.png",
+          duration: "Feb 2024 - Present",
+          location: "Sydney, NSW, Australia",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Applying DevOps principles to develop and maintain the company website.",
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "Student Ambassador",
+          company: "Help Elevate Youth - GoFundMe",
+          company_url: "https://www.gofundme.com/f/helpelevateyouth",
+          logo_path: "hey_logo.png",
+          duration: "Feb 2024 - Present",
+          location: "Sydney, NSW, Australia",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "Leading donation drives and advocating for disadvantaged youth/homelessness in my school and community.",
           color: "#9b1578",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          title: "Alumni",
+          company: "Harvard University",
+          company_url: "https://cs50.harvard.edu/x/2024/",
+          logo_path: "harvard_logo.png",
+          duration: "Apr 2024 - Present",
+          location: "Cambridge, Massachusetts, USA",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+            "Tutoring CS50 students on C, Python, and web development using JavaScript, SQL, and the Flask framework.",
           color: "#fc1f20",
         },
       ],
     },
-    {
+    /*{
       title: "Internships",
       experiences: [
         {
           title: "Machine Learning Intern",
           company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
+          company_url: "https://retroelkintg.com",
+          logo_path: "plantcord_logo.png",
           duration: "May 2022 - Aug 2022",
           location: "San Francisco, USA",
           description:
@@ -617,8 +617,8 @@ const experience = {
           color: "#0071C5",
         },
       ],
-    },
-    {
+    },*/
+    /*{
       title: "Volunteerships",
       experiences: [
         {
@@ -678,7 +678,7 @@ const experience = {
           color: "#181717",
         },
       ],
-    },
+    },*/
   ],
 };
 
@@ -686,18 +686,18 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects make use of a vast variety of the latest technologies available in our modern world. My biggest project was the creation of a 2D Zelda-Like RPG, namely Malevolent Shrine, which was produced using Unity and C#.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
-  title: "Publications",
-  description: "Some of my published Articles, Blogs and Research.",
-  avatar_image_path: "projects_image.svg",
+  title: "", // Publications
+  description: "", // Some of my published Articles, Blogs and Research.
+  avatar_image_path: "", // projects_image.svg
 };
 
 const publications = {
-  data: [
+  data: [/*
     {
       id: "neuro-symbolic-sudoku-solver",
       name: "Neuro-Symbolic Sudoku Solver",
@@ -719,34 +719,34 @@ const publications = {
       description: "Blog published in Paperspace",
       url: "https://blog.paperspace.com/consistency-models/",
     },
-  ],
+  */],
 };
 
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "elkin_franco.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am quite the busy individual, but if you need to contact me, I will mainly respond through LinkedIn. :)",
   },
   blogSection: {
-    title: "Blogs",
+    title: "Video Games",
     subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+      "My largest hobby other than programming is playing video games.",
+    link: "https://psnprofiles.com/RetroElkinTG",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    subtitle: "Sydney, NSW, Australia 2052",
+    locality: "Sydney",
+    country: "Australia",
+    region: "New South Wales",
+    postalCode: "2052",
+    streetAddress: "Anzac Parade",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://maps.app.goo.gl/KKLejUWbQ63Ykm866",
   },
   phoneSection: {
     title: "",
