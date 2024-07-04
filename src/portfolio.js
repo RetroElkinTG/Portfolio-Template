@@ -287,7 +287,7 @@ const skills = {
       skills: [
         "⚡ Designing highly attractive user interfaces for mobile and web applications",
         "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Creating application workflow functionalities to optimize user experience",
       ],
       softwareSkills: [
         {
