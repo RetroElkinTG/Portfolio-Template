@@ -92,7 +92,7 @@ const skills = {
       skills: [
         "⚡ Learning about highly scalable production ready models for various deep learning and statistical use cases",
         "⚡ Experience working with Generative AI and MySQL projects",
-        "⚡ A slightly high reliance on ChatGPT :)",
+        "⚡ Using GPT-4 models to automate tasks and create AI-driven functionalities.",
       ],
       softwareSkills: [
         {
