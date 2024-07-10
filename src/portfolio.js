@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate and ambitious individual who thrives on developing sustainable and scalable technical systems to create a better future.",
   resumeLink:
-    "https://www.linkedin.com/in/elkin-franco/",
+    "https://drive.google.com/file/d/1EZQc6Rw4k3LFSKLbZ43wwn6cCnmLlaxb/view?usp=sharing",
   portfolio_repository: "https://github.com/RetroElkinTG/RetroElkinTG",
   githubProfile: "https://github.com/RetroElkinTG",
 };
